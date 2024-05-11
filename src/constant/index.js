@@ -1,3 +1,5 @@
+import { fb, insta, pintrest, twitter } from "@/assets";
+
 export const navTitle = [
   {
     name: "Home",
@@ -85,3 +87,22 @@ export const footerTitle = {
     ],
   },
 };
+
+export const socialNetwork = [
+  {
+    link: "https://www.instagram.com/",
+    image: insta,
+  },
+  {
+    link: "https://www.facebook.com/",
+    image: fb,
+  },
+  {
+    link: "https://twitter.com/",
+    image: twitter,
+  },
+  {
+    link: "https://in.pinterest.com/",
+    image: pintrest,
+  },
+];
