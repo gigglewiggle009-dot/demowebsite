@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bgService {
+    /* background-image: url('../assets/secondFreeStartBg.png'); */
+    background-attachment: fixed;
+}
