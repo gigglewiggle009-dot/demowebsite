@@ -4,9 +4,9 @@ import { SharedHeader } from "../SharedHeader";
 export const SharedLayout = ({ children }) => {
   return (
     <>
-      <SharedFooter />
-      {children}
       <SharedHeader />
+      {children}
+      <SharedFooter />
     </>
   );
 };
