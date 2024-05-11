@@ -36,7 +36,7 @@ export const SharedHeader = () => {
             <div>
               <SharedButton
                 text="WORKS WITH US"
-                className="text-white font-bold text-sm"
+                className="text-white font-bold text-sm bg-primaryBlue px-4 py-2 rounded-lg"
               />
             </div>
           </div>
