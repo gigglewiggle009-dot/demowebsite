@@ -3,11 +3,7 @@ import { SharedLayout } from "@/components/SharedComponent";
 const page = () => {
   return (
     <SharedLayout>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nemo
-        ipsum tenetur dolor sint? Nisi magni quos culpa modi aperiam earum
-        itaque voluptas, pariatur illum, libero tempore saepe amet ex!
-      </div>
+      <div className="text-4xl font-bold">Content</div>
     </SharedLayout>
   );
 };
