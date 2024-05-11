@@ -1,13 +1,10 @@
+import Services from "@/components/Services";
 import { SharedLayout } from "@/components/SharedComponent";
 
 const page = () => {
   return (
     <SharedLayout>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nemo
-        ipsum tenetur dolor sint? Nisi magni quos culpa modi aperiam earum
-        itaque voluptas, pariatur illum, libero tempore saepe amet ex!
-      </div>
+      <Services />
     </SharedLayout>
   );
 };

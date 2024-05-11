@@ -1,3 +1,3 @@
 export const SharedFooter = () => {
-  return <div>index</div>;
+  return <div></div>;
 };
