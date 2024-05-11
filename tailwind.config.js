@@ -12,7 +12,7 @@ const config = {
         primaryBlue: "#5B27F7",
         primaryBlack: "#0a0c00",
         primaryGray: "#c7c8cc",
-        cardBg:'#ffffff17'
+        cardBg:'#ffffff0d'
       },
       screens: {
         desktop: "1180px",
