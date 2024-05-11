@@ -10,9 +10,8 @@ const config = {
     extend: {
       colors: {
         primaryBlue: "#5B27F7",
-        secondaryBlue: "#7875FF",
-        primaryBlack: "#010101",
-        secondaryBlack: "#171718",
+        primaryBlack: "#0a0c00",
+        primaryGray: "#c7c8cc",
       },
       screens: {
         desktop: "1180px",
