@@ -1,11 +1,11 @@
 .wrapper {
-    @apply bg-black pt-16 target:pt-0 border border-black relative h-screen overflow-hidden;
+    @apply bg-black border border-black relative h-[85vh] overflow-hidden;
 
     .textPosition {
-        @apply h-full flex flex-col justify-center tablet:justify-start z-20;
+        @apply h-full flex flex-col justify-start tablet:justify-start z-20;
 
         .heroTitle {
-            @apply text-center text-white mt-0 md:mt-12 max-w-[700px] desktop:max-w-[1100px] mx-auto px-5 leading-[38px] tablet:leading-[40px] relative z-30;
+            @apply text-center text-white mt-10 md:mt-16 max-w-[700px] desktop:max-w-[1100px] mx-auto px-5 leading-[38px] tablet:leading-[40px] relative z-30;
 
             .greyArea {
                 @apply text-32 tablet:text-6xl desktop:text-[82px] leading-[38px] tablet:leading-[20px] font-bold;
