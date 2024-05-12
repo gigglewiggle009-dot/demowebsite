@@ -3,6 +3,8 @@ import {
   ArtistManagement,
   Branding,
   ContentIdeas,
+  DirectorOne,
+  DirectorTwo,
   GoogleAds,
   GoogleAnalytics,
   InstagramAds,
@@ -14,6 +16,7 @@ import {
   insta,
   pintrest,
   twitter,
+  
 } from "@/assets";
 
 export const serviceData = {
@@ -26,6 +29,16 @@ export const serviceData = {
   subtext4: "ARTIST MANAGEMENT EXPERTISE",
   subtext5: "LEAD GENERATION POWERHOUSE",
 };
+export const director = [
+  {
+    img:DirectorOne.src,
+    header:"Shubham Gupta"
+  },
+  {
+    img:DirectorTwo.src,
+    header:"Nikhil Gupta"
+  }
+]
 
 export const ourClient = [
   {
