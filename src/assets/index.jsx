@@ -1,3 +1,4 @@
+import HothurFoundation from '@/assets/img/png/hothurfoundation.png'
 import logo from "./logo.png";
 import ServiceImg from "./services.jpg";
 import GoogleAds from "./googleAd.png";
@@ -17,6 +18,7 @@ import pintrest from "./Pintrest.png";
 import fb from "./Fb.png";
 
 export {
+  HothurFoundation,
   logo,
   fb,
   insta,
