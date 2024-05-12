@@ -8,6 +8,7 @@ import { useState } from "react";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { usePathname } from "next/navigation";
+import styles from "@/components/HomeBanner/style.module.scss";
 
 export const SharedHeader = () => {
   const path = usePathname();
@@ -40,7 +41,7 @@ export const SharedHeader = () => {
             <div>
               <SharedButton
                 text="WORKS WITH US"
-                className="text-white font-bold text-sm bg-primaryBlue px-4 py-1 rounded-lg"
+                className="text-white font-bold text-sm bg-primaryBlue px-4 py-1 rounded-lg *:"
               >
                 WORKS WITH US
               </SharedButton>
