@@ -1,12 +1,14 @@
+import { HomeBanner } from "@/components";
 import { SharedLayout } from "@/components/SharedComponent";
-
 const page = () => {
   return (
     <SharedLayout>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, vitae
-      dolorum. Earum ex vitae, nulla eveniet corporis eos sapiente soluta iure
-      quasi, quia dicta laudantium voluptatibus exercitationem, incidunt facilis
-      accusantium!
+      <HomeBanner/>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nemo
+        ipsum tenetur dolor sint? Nisi magni quos culpa modi aperiam earum
+        itaque voluptas, pariatur illum, libero tempore saepe amet ex!
+      </div>
     </SharedLayout>
   );
 };

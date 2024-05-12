@@ -1,9 +1,6 @@
-import { twMerge } from "tailwind-merge";
+import styles from "./style.module.scss";
+import classNames from "classnames";
 
-export const SharedButton = ({ text, className, ...props }) => {
-  return (
-    <button className={twMerge("", className)} {...props}>
-      {text}
-    </button>
-  );
+export const SharedButton = ({ children, className = "" }) => {
+  return <button className={classNames(styles.wrapper, className)}>{children}</button>;
 };
