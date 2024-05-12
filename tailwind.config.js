@@ -1,6 +1,7 @@
+
 const rem = (num) => ({ [num]: `${num / 16}rem` });
 
-const config = {
+const config= {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,7 +13,21 @@ const config = {
         primaryBlue: "#5B27F7",
         primaryBlack: "#0a0c00",
         primaryGray: "#c7c8cc",
+<<<<<<< HEAD
         cardBg:'#ffffff0d'
+=======
+        primary: "#5B27F7",
+        secondary: "#7875FF",
+        black: "#010101",
+        secondaryBlack: "#171718",
+        grey: "#202021",
+        secondaryGrey: "#B1B1B1",
+        lightGrey: "#D7D9DD",
+        backgroundGrey: "#EEF0F4",
+        thirdGrey: "#8D959C",
+        green: "#43B97F",
+        yellow: "#FFCC4A",
+>>>>>>> 710d84393b168f535ea43b5cf97375de58c0d394
       },
       screens: {
         desktop: "1180px",
@@ -29,6 +44,7 @@ const config = {
         ...rem(44),
         ...rem(52),
         ...rem(84),
+        ...rem(86),
       },
       lineHeight: {
         ...rem(67),
@@ -52,25 +68,23 @@ const config = {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       borderRadius: {
         ...rem(32),
       },
       zIndex: {
-        1: "1",
-        2: "2",
-        3: "3",
-        4: "4",
-        5: "5",
-        6: "6",
-        7: "7",
-        8: "8",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
       },
     },
   },
   plugins: [],
 };
-
 export default config;

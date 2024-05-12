@@ -1,3 +1,4 @@
+import { HomeBanner } from "@/components";
 import { SharedLayout } from "@/components/SharedComponent";
 import { Clients } from "@/components";
 import Services from "@/components/Services";
@@ -5,8 +6,8 @@ import Services from "@/components/Services";
 const page = () => {
   return (
     <SharedLayout>
+      <HomeBanner />
       <Services />
-      <Clients />
     </SharedLayout>
   );
 };
