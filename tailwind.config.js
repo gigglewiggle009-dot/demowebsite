@@ -13,6 +13,7 @@ const config= {
         primaryBlue: "#5B27F7",
         primaryBlack: "#0a0c00",
         primaryGray: "#c7c8cc",
+        cardBg:'#ffffff0d',
         primary: "#5B27F7",
         secondary: "#7875FF",
         black: "#010101",

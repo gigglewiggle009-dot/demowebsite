@@ -1,9 +1,14 @@
+"use client"
 import { HomeBanner } from "@/components";
-import { SharedLayout } from "@/components/SharedComponent";
+import { SharedCard, SharedLayout } from "@/components/SharedComponent";
+import { Clients , Services} from "@/components";
+
 const page = () => {
   return (
     <SharedLayout>
-      <HomeBanner/>
+      <HomeBanner />
+      <Services />
+      <Clients />
     </SharedLayout>
   );
 };

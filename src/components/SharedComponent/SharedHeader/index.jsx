@@ -37,7 +37,9 @@ export const SharedHeader = () => {
               <SharedButton
                 text="WORKS WITH US"
                 className="text-white font-bold text-sm bg-primaryBlue px-4 py-2 rounded-lg"
-              >Start </SharedButton>
+              >
+                Start{" "}
+              </SharedButton>
             </div>
           </div>
           <button className="block lg:hidden text-white" onClick={toggleDrawer}>

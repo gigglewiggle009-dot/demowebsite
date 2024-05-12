@@ -2,33 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.bgService {
+  background-attachment: fixed;
+}
 
-  
-  
-  body {
-    /* background-color: hsl(0, 0%, 0%); */
-    color: white;
-  }
-  
-  .font-roobert {
-    font-family: 'Roobert', serif !important;
-  }
-  
-  .font-assistant {
-    font-family: 'Assistant', serif !important;
-  }
-  
-  a {
-    cursor: pointer;
-  }
-  
-  .slick-slide div {
-    height: 100%;
-  }
-  
-  .slick-dots li button:before {
-    margin-top: 30px;
-    font-size: 21px !important;
-    color: #5B27F7 !important;
-  }
-  
+body {
+  color: white;
+}
+
+.font-roobert {
+  font-family: "Roobert", serif !important;
+}
+
+.font-assistant {
+  font-family: "Assistant", serif !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+.slick-slide div {
+  height: 100%;
+}
+
+.slick-dots li button:before {
+  margin-top: 30px;
+  font-size: 21px !important;
+  color: #5b27f7 !important;
+}
