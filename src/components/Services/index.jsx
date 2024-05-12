@@ -13,7 +13,7 @@ export const Services = () => {
             <img src={ServiceImg.src} className="h-full w-full" alt="Service" />
           </div>
           <div className="mx-16">
-            <div className="flex flex-col justify-center h-full w-full items-start space-y-8">
+            <div className="flex flex-col justify-center h-full w-full items-start space-y-8 ">
               <SharedHeading>{serviceData.header}</SharedHeading>
               <div className="text-base font-normal">{serviceData.details}</div>
               <div className="space-y-5">
@@ -25,9 +25,9 @@ export const Services = () => {
                 ].map((text, index) => (
                   <div
                     key={index}
-                    className="font-semibold flex items-center gap-7"
+                    className="font-semibold flex items-center gap-7 text-blue-500"
                   >
-                    <LuCheckCircle className="text-green-700 text-3xl" />
+                    <LuCheckCircle className="text-green text-3xl" />
                     <span>{text}</span>
                   </div>
                 ))}

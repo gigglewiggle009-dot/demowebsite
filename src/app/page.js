@@ -5,6 +5,7 @@ import UserRecommend from "@/components/ourClient";
 import { HomeBanner } from "@/components";
 import {SharedLayout } from "@/components/SharedComponent";
 import { Clients , Services} from "@/components";
+import Director from "@/components/director";
 
 const page = () => {
   return (
@@ -15,6 +16,8 @@ const page = () => {
       <NumberTalks />
       <Services />
       <Clients />
+      <Director />
+      
     </SharedLayout>
   );
 };

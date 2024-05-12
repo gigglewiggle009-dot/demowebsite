@@ -3,16 +3,10 @@ import React from "react";
 import classNames from "classnames";
 import Image from "next/image";
 import CustomCarousel from "../SharedComponent/customCarousel";
-import Influencer1 from "@/assets/img/png/influencer1.jpeg";
-import Influencer2 from "@/assets/img/png/influencer2.jpg";
-import Influencer3 from "@/assets/img/png/influencer3.webp";
-import Influencer4 from "@/assets/img/png/infulencer4.jpg";
-import Influencer5 from "@/assets/img/png/infulencer5.jpg";
-import Influencer6 from "@/assets/img/png/influencer6.jpg";
-import Influencer7 from "@/assets/img/png/influencer7.jpg";
-import Influencer8 from "@/assets/img/png/influencer8.jpg";
+
 import BgInfluencer from "@/assets/svg/bgInfluencer.svg";
 import { useRouter } from "next/navigation";
+import { Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8 } from "@/assets";
 
 const userData = [
     {
@@ -73,7 +67,7 @@ const UserRecommend = () => {
               })}
               key={index}
             >
-              <img src={item.image.src} alt="img" className="w-[250px] h-[390px] rounded-2xl" />
+              <img src={item.image.src} alt="img" className="w-[250px] h-[390px] rounded-2xl object-cover" />
               <h1 className="text-4xl py-2 text-gray-500 font-semibold font-serif">{item.name}</h1>
               <p className="text-2xl text-blue-gray-400 font-semibold">{item.desc}</p>
             </div>
