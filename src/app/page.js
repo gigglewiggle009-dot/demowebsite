@@ -1,14 +1,22 @@
+"use client"
 import LetsCreate from "@/components/letscreate";
 import NumberTalks from "@/components/numbertalks";
 import UserRecommend from "@/components/ourClient";
-import Image from "next/image";
+import { HomeBanner } from "@/components";
+import {SharedLayout } from "@/components/SharedComponent";
+import { Clients , Services} from "@/components";
 
-export default function Home() {
+const page = () => {
   return (
-    <div>
+    <SharedLayout>
+      <HomeBanner />
       <UserRecommend />
       <LetsCreate />
       <NumberTalks />
-    </div>
+      <Services />
+      <Clients />
+    </SharedLayout>
   );
-}
+};
+
+export default page;
