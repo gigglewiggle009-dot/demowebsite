@@ -13,9 +13,7 @@ const config= {
         primaryBlue: "#5B27F7",
         primaryBlack: "#0a0c00",
         primaryGray: "#c7c8cc",
-<<<<<<< HEAD
-        cardBg:'#ffffff0d'
-=======
+        cardBg:'#ffffff0d',
         primary: "#5B27F7",
         secondary: "#7875FF",
         black: "#010101",
@@ -27,7 +25,6 @@ const config= {
         thirdGrey: "#8D959C",
         green: "#43B97F",
         yellow: "#FFCC4A",
->>>>>>> 710d84393b168f535ea43b5cf97375de58c0d394
       },
       screens: {
         desktop: "1180px",

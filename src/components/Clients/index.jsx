@@ -13,7 +13,7 @@ export const Clients = () => {
                 </div>
                 <div className='grid grid-cols-3 gap-10'>
                     {
-                        ourClient?.map((item, index) => <SharedCard item={item} index={index} />)
+                        ourClient?.map((item, index) => <SharedCard item={item} index={index} key={index} />)
                     }
                 </div>
             </div>
