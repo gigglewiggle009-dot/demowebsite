@@ -206,3 +206,59 @@ export const socialNetwork = [
     image: pintrest,
   },
 ];
+
+export const footerOfficeInfo = {
+  title: "Office Info",
+  content: [
+    {
+      name: "Help and Support",
+      href: "",
+    },
+    {
+      name: "Customer Service",
+      href: "",
+    },
+    {
+      name: "Faqs",
+      href: "",
+    },
+    {
+      name: "Contact us profile",
+      href: "",
+    },
+    {
+      name: "Find our Location Careers",
+      href: "",
+    },
+    {
+      name: "Page Break Down",
+      href: "",
+    },
+  ],
+};
+
+export const footerNewsletter = {
+  title: "Newsletter",
+  content: [
+    {
+      name: "Obligations",
+      href: "",
+    },
+    {
+      name: "Legal Notice",
+      href: "",
+    },
+    {
+      name: "Team and Condition",
+      href: "",
+    },
+    {
+      name: "Privacy Notice",
+      href: "",
+    },
+    {
+      name: "Legal Notice",
+      href: "",
+    },
+  ],
+};
