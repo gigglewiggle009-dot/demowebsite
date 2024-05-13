@@ -29,7 +29,7 @@ import Influencer8 from "./influencer8.jpg";
 import arrowLeft from "./arrowLeft.png";
 import arrowRight from "./arrowRight.png";
 import BgAutoScan from "./bgAutoScan.png";
-
+import FreeStart from './freeStart.png'
 export {
   BgAutoScan,
   arrowLeft,
@@ -62,4 +62,5 @@ export {
   GoogleAnalytics,
   SEO,
   LeadGeneration,
+  FreeStart
 };

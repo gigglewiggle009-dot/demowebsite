@@ -5,3 +5,4 @@ export { SharedLayout } from "./SharedLayout";
 export { SharedHeading } from "./SharedHeading";
 export { SharedCard } from "./SharedCard";
 export { RedLine } from "./RedLine";
+export { SharedTopBanner } from './SharedTopBanner'
