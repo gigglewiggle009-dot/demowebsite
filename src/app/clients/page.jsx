@@ -1,9 +1,12 @@
+import LetsCreate from '@/components/letscreate'
+import UserRecommend from '@/components/ourClient'
 import React from 'react'
 
 function page() {
   return (
     <div>
-      client
+     <UserRecommend />
+     <LetsCreate />
     </div>
   )
 }

@@ -29,8 +29,18 @@ import Influencer8 from "./influencer8.jpg";
 import arrowLeft from "./arrowLeft.png";
 import arrowRight from "./arrowRight.png";
 import BgAutoScan from "./bgAutoScan.png";
+import Shami from "./shami.jpg";
+import Ebhrahim from './ebhrahim.jpg';
+import Sonu from './sonusood.jpeg'
+import Chat from './chatus.png'
+import Mobile from './mobile.png'
 
 export {
+  Chat,
+  Mobile,
+  Shami,
+  Ebhrahim,
+  Sonu,
   BgAutoScan,
   arrowLeft,
   arrowRight,

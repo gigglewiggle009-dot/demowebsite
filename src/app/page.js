@@ -9,7 +9,7 @@ import Director from "@/components/director";
 
 const page = () => {
   return (
-    <SharedLayout>
+    <>
       <HomeBanner />
       <UserRecommend />
       <LetsCreate />
@@ -17,8 +17,7 @@ const page = () => {
       <Services />
       <Clients />
       <Director />
-      
-    </SharedLayout>
+      </>
   );
 };
 
