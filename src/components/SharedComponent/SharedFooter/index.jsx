@@ -7,8 +7,10 @@ import {
   socialNetwork,
 } from "@/constant";
 import Link from "next/link";
-import { IoArrowRedoOutline } from "react-icons/io5";
 import { RedLine } from "..";
+import { MdOutlineDoubleArrow, MdOutlineMailOutline } from "react-icons/md";
+import { BiSolidPhoneCall } from "react-icons/bi";
+import { FaAddressBook } from "react-icons/fa";
 
 export const SharedFooter = () => {
   const handleSubmit = (event) => {
@@ -18,10 +20,10 @@ export const SharedFooter = () => {
   return (
     <footer className="bg-primaryBlack">
       <div className="w-11/12 mx-auto px-2">
-        <div className="flex items-center gap-20">
+        <div className="flex items-center gap-7">
           <div className="w-[30%]">
             <div>
-              <h1 className="text-xl">PromoDaddy Digital</h1>
+              <h1 className="text-3xl font-bold">PromoDaddy Digital</h1>
               <div className="w-[80px] h-[80px] mt-8">
                 <img src={logo.src} className="h-full w-full" alt="logo" />
               </div>
@@ -40,9 +42,9 @@ export const SharedFooter = () => {
             </div>
           </div>
           <div className="w-[70%]">
-            <div className="w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 py-10">
+            <div className="w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
               <div>
-                <h6 className="text-primaryWhite text-23 font-bold leading-30">
+                <h6 className="text-primaryWhite text-22 font-bold leading-30">
                   {footerTitle?.linkOne.title}
                 </h6>
                 <div className="mt-0 mb-8">
@@ -56,8 +58,9 @@ export const SharedFooter = () => {
                       className="block text-base w-fit transition-all duration-300 ease-in-out"
                     >
                       <span className="group relative inline-block">
-                        <span className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out py-1">
-                          {content.name}
+                        <span className="flex items-center gap-x-2 bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out py-1">
+                          <MdOutlineDoubleArrow />
+                          <span>{content.name}</span>
                         </span>
                       </span>
                     </Link>
@@ -65,7 +68,7 @@ export const SharedFooter = () => {
                 </div>
               </div>
               <div>
-                <h6 className="text-primaryWhite text-23 font-bold leading-30">
+                <h6 className="text-primaryWhite text-22 font-bold leading-30">
                   {footerTitle?.linkTwo.title}
                 </h6>
                 <div className="mt-0 mb-8">
@@ -79,8 +82,9 @@ export const SharedFooter = () => {
                       className="block text-base w-fit transition-all duration-300 ease-in-out"
                     >
                       <span className="group relative inline-block">
-                        <span className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out py-1">
-                          {content.name}
+                        <span className="flex items-center gap-x-2 bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out py-1">
+                          <MdOutlineDoubleArrow />
+                          <span>{content.name}</span>
                         </span>
                       </span>
                     </Link>
@@ -88,20 +92,25 @@ export const SharedFooter = () => {
                 </div>
               </div>
               <div>
-                <div className="text-primaryWhite font-bold leading-30">
-                  <h6 className="text-primaryWhite text-23 font-bold leading-30">
+                <div className="text-primaryWhite">
+                  <h6 className="text-primaryWhite text-22 font-bold leading-30">
                     Contact
                   </h6>
                   <div className="mt-0 mb-8">
                     <RedLine />
                   </div>
-                  <p>Plot no. 26, mahaveer nagar vistar yojana, kota, 324005</p>
+                  <div className="flex items-start gap-2">
+                    <FaAddressBook className="text-2xl" />
+                    <p>Plot no. 26, mahaveer nagar vistar yojana, kota, 324005</p>
+                  </div>
                   <div className="mt-8">
-                    <a className="block" href="">
-                      +91 9602089182
+                    <a className="flex items-center gap-x-2" href="">
+                      <BiSolidPhoneCall className="text-xl" />
+                      <span>+91 9602089182</span>
                     </a>
-                    <a className="block" href="">
-                      promodaddydigital@gmail.com
+                    <a className="flex items-center gap-x-2" href="">
+                      <MdOutlineMailOutline className="text-xl" />
+                      <span>promodaddydigital@gmail.com</span>
                     </a>
                   </div>
                 </div>
