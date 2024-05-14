@@ -34,9 +34,17 @@ import Ebhrahim from "./ebhrahim.jpg";
 import Sonu from "./sonusood.jpeg";
 import Chat from "./chatus.png";
 import Mobile from "./mobile.png";
-
 import FreeStart from "./freeStart.png";
+import aboutbanner from "./aboutbanner.png";
+import clientbanner from "./clientbanner.png";
+import contactbanner from "./contactbanner.png";
+import servicebanner from "./servicebanner.png";
+
 export {
+  aboutbanner,
+  clientbanner,
+  contactbanner,
+  servicebanner,
   Chat,
   Mobile,
   Shami,
