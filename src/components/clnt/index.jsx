@@ -9,10 +9,10 @@ const Contact = () => {
       <div className="w-5/6 mx-auto grid grid-cols-3 gap-x-8 gap-y-8">
         {contactData.map((item, index) => (
           <div
-            className="bg-[#ecefff] hover:border-b-[3px] border-[#322783] h-[208px] transition-all duration-300 ease-in-out group rounded-lg overflow-hidden relative"
+            className="bg-[#ecefff] cursor-pointer border-primaryBlue h-[208px] transition-all duration-300 ease-in-out group rounded-lg overflow-hidden relative"
             key={index}
           >
-            <div className="xl:p-8 group-hover:p-6 p-2 group-hover:space-y-2 space-y-9 font-semibold">
+            <div className="xl:p-8 group-hover:p-6 duration-300 transform p-2 group-hover:space-y-2 space-y-9 font-semibold">
               <img
                 className="my-2 h-16 w-16 transition-all duration-300 transform"
                 src={item.image.src}
