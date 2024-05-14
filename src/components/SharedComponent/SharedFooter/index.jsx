@@ -1,16 +1,16 @@
 import { logo } from "@/assets";
 import { GoArrowUpRight } from "react-icons/go";
-import {
-  footerNewsletter,
-  footerOfficeInfo,
-  footerTitle,
-  socialNetwork,
-} from "@/constant";
-import Link from "next/link";
-import { RedLine } from "..";
 import { MdOutlineDoubleArrow, MdOutlineMailOutline } from "react-icons/md";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { FaAddressBook } from "react-icons/fa";
+import Link from "next/link";
+import { RedLine } from "..";
+import {
+  footerTitle,
+  footerNewsletter,
+  footerOfficeInfo,
+  socialNetwork,
+} from "@/constant";
 
 export const SharedFooter = () => {
   const handleSubmit = (event) => {
@@ -19,11 +19,11 @@ export const SharedFooter = () => {
 
   return (
     <footer className="bg-primaryBlack">
-      <div className="w-11/12 mx-auto px-2">
-        <div className="flex items-center gap-7">
+      <div className="w-11/12 mx-auto px-2 py-10">
+        <div className="flex gap-7">
           <div className="w-[30%]">
+            <h1 className="text-3xl font-bold">PromoDaddy Digital</h1>
             <div>
-              <h1 className="text-3xl font-bold">PromoDaddy Digital</h1>
               <div className="w-[80px] h-[80px] mt-8">
                 <img src={logo.src} className="h-full w-full" alt="logo" />
               </div>
@@ -42,7 +42,7 @@ export const SharedFooter = () => {
             </div>
           </div>
           <div className="w-[70%]">
-            <div className="w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
+            <div className="w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5">
               <div>
                 <h6 className="text-primaryWhite text-22 font-bold leading-30">
                   {footerTitle?.linkOne.title}
@@ -104,11 +104,11 @@ export const SharedFooter = () => {
                     <p>Plot no. 26, mahaveer nagar vistar yojana, kota, 324005</p>
                   </div>
                   <div className="mt-8">
-                    <a className="flex items-center gap-x-2" href="">
+                    <a className="flex items-center gap-x-2" href="tel:+919602089182">
                       <BiSolidPhoneCall className="text-xl" />
                       <span>+91 9602089182</span>
                     </a>
-                    <a className="flex items-center gap-x-2" href="">
+                    <a className="flex items-center gap-x-2" href="mailto:promodaddydigital@gmail.com">
                       <MdOutlineMailOutline className="text-xl" />
                       <span>promodaddydigital@gmail.com</span>
                     </a>
@@ -119,7 +119,6 @@ export const SharedFooter = () => {
           </div>
         </div>
       </div>
-
       <div className="w-11/12 mx-auto py-7 border-t border-brown ">
         <p className="text-center text-14 font-light text-primaryWhite">
           © 2024 PromoDaddy Digital. All rights reserved.
