@@ -1,3 +1,4 @@
+import { Project } from '@/components'
 import LetsCreate from '@/components/letscreate'
 import Management from '@/components/management'
 import React from 'react'
@@ -5,8 +6,9 @@ import React from 'react'
 function page() {
   return (
     <div>
-    <Management />
-    <LetsCreate />
+      <Project />
+      <Management />
+      <LetsCreate />
     </div>
   )
 }
