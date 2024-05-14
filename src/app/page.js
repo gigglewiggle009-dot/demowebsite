@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
       <HomeBanner />
-      <SharedTopBanner bannerImage={ServiceImg} sectionsName={"Demo"} />
+      {/* <SharedTopBanner bannerImage={ServiceImg} sectionsName={"Demo"} /> */}
       <UserRecommend />
       <LetsCreate />
       <NumberTalks />
