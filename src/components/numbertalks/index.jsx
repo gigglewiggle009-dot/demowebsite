@@ -25,8 +25,8 @@ const NumberTalks = () => {
                 onEnter={() => setCounterOn(true)}
                 onExit={() => setCounterOn(false)}
               >
-                <div className="lg:h-[300px] flex flex-col  justify-center  text-xl font-semibold border-e-2 border-e-blue-500 shadow-xl  ">
-                  <div className="text-blue-500 font-Inter  text-2xl xl:text-[42px]  font-bold lg:mb-4 mb-2   ">
+                <div className={`lg:h-[300px] flex flex-col justify-center text-xl font-semibold ${index !== countSections.length - 1 ? 'border-e-2 border-e-blue-500' : ''} shadow-xl`}>
+                  <div className="text-blue-500 font-Inter  text-2xl xl:text-[42px]  font-bold lg:mb-4 mb-2 px-8  ">
                     {counterOn && (
                       <CountUp
                         start={0}
@@ -37,10 +37,10 @@ const NumberTalks = () => {
                     )}
                     &nbsp;+
                   </div>
-                  <div className="xl:text-4xl font-Inter lg:text-3xl md:text-sm text-xl whitespace-nowrap text-start py-4 text-gray-700">
+                  <div className="xl:text-4xl px-8 font-Inter lg:text-3xl md:text-sm text-xl whitespace-nowrap text-start py-4 text-gray-700">
                     {section.label}
                   </div>
-                  <div className="">
+                  <div className="px-8">
                     {section.desc}
                   </div>
                 </div>

@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import { logo } from "@/assets";
 import { navTitle } from "@/constant";
 import Link from "next/link";
@@ -27,19 +27,15 @@ export const SharedHeader = () => {
           <div className="hidden lg:flex items-center gap-[140px] justify-around">
             <div className="flex items-center gap-10">
               {navTitle.map((nav, index) => (
-                <Link
-                  href={nav.link}
-                  key={index}
-                  className={`w-fit font-bold text-white text-sm ${
-                    path === nav.link ? "text-primary" : null
-                  }`}
-                >
-                  {nav.name}
+                <Link href={nav.link} key={index}>
+                  <p className={`w-fit font-bold text-white text-sm ${path === nav.link ? "underline decoration-2 underline-offset-8 text-blue-500" : "hover:text-btnColor"}`}>
+                    {nav.name}
+                  </p>
                 </Link>
               ))}
             </div>
             <div>
-              <SharedButton
+            <SharedButton
                 text="WORKS WITH US"
                 className="text-white font-bold text-sm bg-primaryBlue px-4 py-1 rounded-lg *:"
               >

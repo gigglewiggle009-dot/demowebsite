@@ -2,15 +2,20 @@ import {
   AdvertisingStrategies,
   ArtistManagement,
   Branding,
+  Chat,
   ContentIdeas,
   DirectorOne,
   DirectorTwo,
+  Ebhrahim,
   GoogleAds,
   GoogleAnalytics,
   InstagramAds,
   Keyword,
   LeadGeneration,
+  Mobile,
   SEO,
+  Shami,
+  Sonu,
   YoutubeAds,
   fb,
   insta,
@@ -18,6 +23,44 @@ import {
   twitter,
   
 } from "@/assets";
+
+export const contactData = [
+  {
+    image: Chat,
+    heading: "Chat with us",
+    details: [
+      {
+        name: 'email@example.com',
+        link: "mailto:email@example.com",
+        image: "" // Assuming you have an EmailIcon component
+      }, 
+      {
+        name: 'contact@example.com',
+        link: "mailto:contact@example.com",
+        image:""
+      }
+    ]
+  },
+  {
+    image: Mobile,
+    heading: "Chat with us",
+    details: [
+      {
+        name: '+91 1234567890',
+        link: "tel:+91 1234567890",
+        image: "" // Assuming you have a MobileIcon component
+      }, 
+      {
+        name: '+91 9874563210',
+        link: "tel:+91 9874563210",
+        image: ""
+      }
+    ]
+  },
+  // Other objects follow similar structure
+];
+
+
 
 export const serviceData = {
   header: "We Offer a Wide Range of Brand Services",
@@ -37,6 +80,23 @@ export const director = [
   {
     img:DirectorTwo.src,
     header:"Nikhil Gupta"
+  }
+]
+export const management = [
+  {
+    img:Shami.src,
+    header:"Mohammad shami",
+    text:"Indian Cricketer"
+  },
+  {
+    img:Ebhrahim.src,
+    header:"Ebhrahim Mhyn",
+    text:"Social media star"
+  },
+  {
+    img:Sonu.src,
+    header:"Sonu Sood",
+    text:"Sood charity foundation"
   }
 ]
 
@@ -107,15 +167,15 @@ export const navTitle = [
   },
   {
     name: "About",
-    link: "/about",
+    link: "/aboutus",
   },
   {
     name: "Service",
-    link: "/service",
+    link: "/services",
   },
   {
     name: "Projects",
-    link: "/projects",
+    link: "/project",
   },
   {
     name: "Blog",
@@ -237,6 +297,7 @@ export const footerOfficeInfo = {
   ],
 };
 
+
 export const footerNewsletter = {
   title: "Newsletter",
   content: [
@@ -261,4 +322,7 @@ export const footerNewsletter = {
       href: "",
     },
   ],
+
+  
+
 };

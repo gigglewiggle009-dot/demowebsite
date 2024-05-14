@@ -1,6 +1,6 @@
-import HothurFoundation from './hothurfoundation.png'
-import DirectorOne from './shubam.jpg'
-import DirectorTwo from './nikhil.jpg'
+import HothurFoundation from "./hothurfoundation.png";
+import DirectorOne from "./shubam.jpg";
+import DirectorTwo from "./nikhil.jpg";
 import logo from "./logo.png";
 import ServiceImg from "./services.jpg";
 import GoogleAds from "./googleAd.png";
@@ -29,8 +29,19 @@ import Influencer8 from "./influencer8.jpg";
 import arrowLeft from "./arrowLeft.png";
 import arrowRight from "./arrowRight.png";
 import BgAutoScan from "./bgAutoScan.png";
-import FreeStart from './freeStart.png'
+import Shami from "./shami.jpg";
+import Ebhrahim from "./ebhrahim.jpg";
+import Sonu from "./sonusood.jpeg";
+import Chat from "./chatus.png";
+import Mobile from "./mobile.png";
+
+import FreeStart from "./freeStart.png";
 export {
+  Chat,
+  Mobile,
+  Shami,
+  Ebhrahim,
+  Sonu,
   BgAutoScan,
   arrowLeft,
   arrowRight,
@@ -62,5 +73,5 @@ export {
   GoogleAnalytics,
   SEO,
   LeadGeneration,
-  FreeStart
+  FreeStart,
 };
