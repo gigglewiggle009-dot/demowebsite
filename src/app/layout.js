@@ -14,11 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-    <SharedHeader />
-      {children}
-    <SharedFooter />
+        <SharedHeader />
+        {children}
+        <SharedFooter />
       </body>
-      
     </html>
   );
 }
