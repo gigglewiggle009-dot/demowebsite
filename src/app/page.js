@@ -2,7 +2,7 @@
 import LetsCreate from "@/components/letscreate";
 import NumberTalks from "@/components/numbertalks";
 import UserRecommend from "@/components/ourClient";
-import { HomeBanner } from "@/components";
+import { HomeBanner, TextMarque } from "@/components";
 import { SharedLayout, SharedTopBanner } from "@/components/SharedComponent";
 import { Clients, Services } from "@/components";
 import Director from "@/components/director";
@@ -12,13 +12,14 @@ const page = () => {
   return (
     <>
       <HomeBanner />
-      <SharedTopBanner bannerImage={ServiceImg} sectionsName={"Demo"} />
-      <UserRecommend />
-      <LetsCreate />
-      <NumberTalks />
+      <TextMarque />
+      {/* <SharedTopBanner bannerImage={ServiceImg} sectionsName={"Demo"} /> */}
       <Services />
       <Clients />
-      <Director />
+      <UserRecommend />
+      <LetsCreate />
+      {/* <NumberTalks /> */}
+      {/* <Director /> */}
     </>
   );
 };

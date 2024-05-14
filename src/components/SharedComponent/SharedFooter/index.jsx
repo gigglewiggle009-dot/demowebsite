@@ -18,8 +18,8 @@ export const SharedFooter = () => {
   return (
     <footer className="bg-primaryBlack">
       <div className="w-11/12 mx-auto px-2">
-        <div className="flex items-center gap-12">
-          <div className="w-[40%]">
+        <div className="flex items-center gap-20">
+          <div className="w-[30%]">
             <div>
               <h1 className="text-xl">PromoDaddy Digital</h1>
               <div className="w-[80px] h-[80px] mt-8">
@@ -39,7 +39,7 @@ export const SharedFooter = () => {
               </p>
             </div>
           </div>
-          <div className="w-[60%]">
+          <div className="w-[70%]">
             <div className="w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 py-10">
               <div>
                 <h6 className="text-primaryWhite text-23 font-bold leading-30">
