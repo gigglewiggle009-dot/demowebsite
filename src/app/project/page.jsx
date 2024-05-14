@@ -1,3 +1,4 @@
+import { Project } from '@/components'
 import { aboutbanner } from '@/assets'
 import LetsCreate from '@/components/letscreate'
 import Management from '@/components/management'
@@ -12,6 +13,7 @@ function page() {
         discriptions="All Project Details"
         bannerImage={aboutbanner.src}
       />
+      <Project />
       <Management />
       <LetsCreate />
     </>
