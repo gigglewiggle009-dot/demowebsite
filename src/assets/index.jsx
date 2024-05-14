@@ -34,8 +34,26 @@ import Ebhrahim from './ebhrahim.jpg';
 import Sonu from './sonusood.jpeg'
 import Chat from './chatus.png'
 import Mobile from './mobile.png'
+import KyaBaat from './kyabathai.jpg';
+import Runjhun from './runjhun.jpg';
+import Employee from './employee.jpg';
+import Dhol from './dhol.jpg';
+import Compitition from './compitition.jpg';
+import Bana from './bana.jpg';
+import Arrowtwo from '../assets/Arrow2.png';
+import CarouselArrowright from '../assets/svg/craouselarrow.svg';
+import CarouselArrowleft from '../assets/svg/craouselleft.svg'
 
 export {
+  Arrowtwo,
+  CarouselArrowleft,
+  CarouselArrowright,
+  KyaBaat,
+  Runjhun,
+  Employee,
+  Dhol,
+  Compitition,
+  Bana,
   Chat,
   Mobile,
   Shami,
