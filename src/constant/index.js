@@ -137,6 +137,12 @@ export const ourClient = [
     text: "Attracts and captures potential customer interest for your business.",
     img: LeadGeneration.src,
   },
+  {
+    header:
+      "Keyword Research (charges depend on keyword volume min charges 500 inr)",
+    text: "Discovers relevant keywords to optimize content and target advertising campaigns.",
+    img: Keyword.src,
+  },
 ];
 
 export const navTitle = [

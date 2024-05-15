@@ -6,6 +6,7 @@ import {
   SharedFooter,
   SharedHeader,
 } from "@/components/SharedComponent";
+import { motion, AnimatePresence } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
