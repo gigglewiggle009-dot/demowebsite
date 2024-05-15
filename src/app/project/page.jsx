@@ -1,3 +1,4 @@
+"use client"
 import { Project } from '@/components'
 import { aboutbanner } from '@/assets'
 import LetsCreate from '@/components/letscreate'

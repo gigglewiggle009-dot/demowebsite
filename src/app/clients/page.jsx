@@ -1,3 +1,4 @@
+"use client"
 import { clientbanner } from "@/assets";
 import { SmallBanner } from "@/components/SharedComponent";
 import LetsCreate from "@/components/letscreate";

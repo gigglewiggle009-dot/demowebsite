@@ -1,3 +1,4 @@
+"use client"
 import { aboutbanner } from "@/assets";
 import { Services } from "@/components";
 import { SmallBanner } from "@/components/SharedComponent";
