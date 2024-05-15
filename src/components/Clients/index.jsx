@@ -16,10 +16,10 @@ export const Clients = () => {
                 <div className='grid grid-cols-3 gap-10'>
                     {
                         ourClient?.map((item, index) =>
-                            <motion.div key={index}
-                             >
-                                <SharedCard item={item} index={index} />
-                            </motion.div>)
+                           
+                             
+                                <SharedCard   key={index} item={item} index={index} />
+                            )
                     }
                 </div>
             </div>

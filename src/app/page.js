@@ -14,11 +14,11 @@ const page = () => {
     <>
       <HomeBanner />
       <TextMarque />
-      <HomeCarousel />
       <Services />
       <Clients />
-      <LetsCreate />
       <UserRecommend />
+      <HomeCarousel />
+      <LetsCreate />
     </>
   );
 };
