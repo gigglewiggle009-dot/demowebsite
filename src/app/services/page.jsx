@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { servicebanner } from "@/assets";
 import { Clients, Services } from "@/components";
 import { SmallBanner } from "@/components/SharedComponent";

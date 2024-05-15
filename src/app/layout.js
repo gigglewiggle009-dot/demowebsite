@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="relative">
+        <div className="relative overflow-hidden">
           <NextTopLoader
             color="#5B27F7"
             initialPosition={0.05}

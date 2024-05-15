@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { contactbanner } from "@/assets";
 import { SmallBanner } from "@/components/SharedComponent";
 import Contact from "@/components/clnt";

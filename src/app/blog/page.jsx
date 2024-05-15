@@ -1,3 +1,4 @@
+"use client";
 import { ComingSoon } from "@/components";
 import React from "react";
 
