@@ -3,6 +3,8 @@
 import React from 'react'
 import { SharedCard, SharedHeading } from '../SharedComponent'
 import { ourClient } from '@/constant'
+import { motion } from "framer-motion"
+
 
 export const Clients = () => {
     return (
@@ -13,7 +15,11 @@ export const Clients = () => {
                 </div>
                 <div className='grid grid-cols-3 gap-10'>
                     {
-                        ourClient?.map((item, index) => <SharedCard item={item} index={index} key={index} />)
+                        ourClient?.map((item, index) =>
+                            <motion.div key={index}
+                             >
+                                <SharedCard item={item} index={index} />
+                            </motion.div>)
                     }
                 </div>
             </div>

@@ -30,7 +30,7 @@ const CustomCarousel = ({ children, direction = "ltr", loop = false, carouselId 
         dots={false}
         margin={20}
         rtl={direction === "ltr" ? false : true}
-        loop={loop}
+        loop={false}
         autoplay={loop}
         autoplayTimeout={3000}
         autoplayHoverPause={true}
