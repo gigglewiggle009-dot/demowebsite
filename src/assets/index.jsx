@@ -1,6 +1,6 @@
-import HothurFoundation from './hothurfoundation.png'
-import DirectorOne from './shubam.jpg'
-import DirectorTwo from './nikhil.jpg'
+import HothurFoundation from "./hothurfoundation.png";
+import DirectorOne from "./shubam.jpg";
+import DirectorTwo from "./nikhil.jpg";
 import logo from "./logo.png";
 import ServiceImg from "./services.jpg";
 import GoogleAds from "./googleAd.png";
@@ -30,7 +30,6 @@ import arrowLeft from "./arrowLeft.png";
 import arrowRight from "./arrowRight.png";
 import BgAutoScan from "./bgAutoScan.png";
 import Shami from "./shami.jpg";
-import Ebhrahim from './ebhrahim.jpg';
 import Sonu from './sonusood.jpeg'
 import Chat from './chatus.png'
 import Mobile from './mobile.png'
@@ -43,6 +42,12 @@ import Bana from './bana.jpg';
 import Arrowtwo from '../assets/Arrow2.png';
 import CarouselArrowright from '../assets/svg/craouselarrow.svg';
 import CarouselArrowleft from '../assets/svg/craouselleft.svg'
+import Ebhrahim from "./ebhrahim.jpg";
+import FreeStart from "./freeStart.png";
+import aboutbanner from "./aboutbanner.png";
+import clientbanner from "./clientbanner.png";
+import contactbanner from "./contactbanner.png";
+import servicebanner from "./servicebanner.png";
 
 export {
   Arrowtwo,
@@ -54,6 +59,12 @@ export {
   Dhol,
   Compitition,
   Bana,
+
+
+  aboutbanner,
+  clientbanner,
+  contactbanner,
+  servicebanner,
   Chat,
   Mobile,
   Shami,
@@ -90,4 +101,5 @@ export {
   GoogleAnalytics,
   SEO,
   LeadGeneration,
+  FreeStart,
 };

@@ -1,11 +1,8 @@
-import React from 'react'
+import { ComingSoon } from "@/components";
+import React from "react";
 
 function page() {
-  return (
-    <div>
-      blog
-    </div>
-  )
+  return <ComingSoon />;
 }
 
-export default page
+export default page;

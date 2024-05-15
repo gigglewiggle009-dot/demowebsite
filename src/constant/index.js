@@ -15,7 +15,9 @@ import {
   GoogleAnalytics,
   InstagramAds,
   Keyword,
+  
   KyaBaat,
+  
   LeadGeneration,
   Mobile,
   Runjhun,
@@ -27,7 +29,6 @@ import {
   insta,
   pintrest,
   twitter,
-  
 } from "@/assets";
 
 export const homeBannerData = [
@@ -72,40 +73,20 @@ export const homeBannerData = [
 export const contactData = [
   {
     image: Chat,
-    heading: "Chat with us",
-    details: [
-      {
-        name: 'email@example.com',
-        link: "mailto:email@example.com",
-        image: "" // Assuming you have an EmailIcon component
-      }, 
-      {
-        name: 'contact@example.com',
-        link: "mailto:contact@example.com",
-        image:""
-      }
-    ]
+    heading: "Headquarters",
+    details: ["Plot no. 26, mahaveer nagar vistar yojana,kota, 324005"],
   },
   {
     image: Mobile,
-    heading: "Chat with us",
-    details: [
-      {
-        name: '+91 1234567890',
-        link: "tel:+91 1234567890",
-        image: "" // Assuming you have a MobileIcon component
-      }, 
-      {
-        name: '+91 9874563210',
-        link: "tel:+91 9874563210",
-        image: ""
-      }
-    ]
+    heading: "Email Address",
+    details: ["promodaddydigital@gmail.com", "promodaddydigital@gmail.com"],
   },
-  // Other objects follow similar structure
+  {
+    image: Mobile,
+    heading: "Phone Number",
+    details: ["+91 9001040527", "+91 9602089182"],
+  },
 ];
-
-
 
 export const serviceData = {
   header: "We Offer a Wide Range of Brand Services",
@@ -119,31 +100,31 @@ export const serviceData = {
 };
 export const director = [
   {
-    img:DirectorOne.src,
-    header:"Shubham Gupta"
+    img: DirectorOne.src,
+    header: "Shubham Gupta",
   },
   {
-    img:DirectorTwo.src,
-    header:"Nikhil Gupta"
-  }
-]
+    img: DirectorTwo.src,
+    header: "Nikhil Gupta",
+  },
+];
 export const management = [
   {
-    img:Shami.src,
-    header:"Mohammad shami",
-    text:"Indian Cricketer"
+    img: Shami.src,
+    header: "Mohammad shami",
+    text: "Indian Cricketer",
   },
   {
-    img:Ebhrahim.src,
-    header:"Ebhrahim Mhyn",
-    text:"Social media star"
+    img: Ebhrahim.src,
+    header: "Ebhrahim Mhyn",
+    text: "Social media star",
   },
   {
-    img:Sonu.src,
-    header:"Sonu Sood",
-    text:"Sood charity foundation"
-  }
-]
+    img: Sonu.src,
+    header: "Sonu Sood",
+    text: "Sood charity foundation",
+  },
+];
 
 export const ourClient = [
   {
@@ -342,7 +323,6 @@ export const footerOfficeInfo = {
   ],
 };
 
-
 export const footerNewsletter = {
   title: "Newsletter",
   content: [
@@ -367,7 +347,4 @@ export const footerNewsletter = {
       href: "",
     },
   ],
-
-  
-
 };

@@ -2,8 +2,8 @@ import React from 'react';
 
 export const SharedCard = ({ item, director, management }) => {
     return (
-        <div className='flex flex-col gap-5 shadow-xl rounded-xl overflow-hidden cursor-pointer bg-cardBg border-gray-400 border-4 border-opacity-20'>
-            <img className={`w-full bg-white ${director ? 'h-[700px] object-cover' : 'h-[220px]'}`} src={item?.img} alt="Al Saif" />
+        <div className='flex flex-col gap-5 shadow-xl rounded-xl overflow-hidden cursor-pointer bg-cardBg border-gray-400 border-4 border-opacity-20 hover:scale-105 duration-300 transform'>
+            <img className={`w-full bg-white ${director ? 'h-[400px] object-contain' : 'h-[220px] '}`} src={item?.img} alt="Al Saif" />
             <div className='px-5 mb-5'>
                 {director ? (
                     <>
