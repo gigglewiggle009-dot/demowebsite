@@ -29,7 +29,7 @@ const LetsCreate = () => {
           <img
             src={BgAutoScan?.src}
             alt="background"
-            className="absolute bottom-0"
+            className="absolute bottom-0 left-[10%]"
           />
         </div>
       </div>

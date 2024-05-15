@@ -18,7 +18,7 @@ export const SmallBanner = ({ bannerImage, sectionsName, discriptions }) => {
                 <h2 className="text-3xl text-center md:text-4xl xl:text-5xl text-white font-extrabold capitalize">
                   {sectionsName}
                 </h2>
-                <div className="text-white text-center text-sm md:text-base px-6 md:px-12">
+                <div className="text-white text-center text-sm md:text-base px-6 md:px-12 w-1/3">
                   {discriptions}
                 </div>
               </div>

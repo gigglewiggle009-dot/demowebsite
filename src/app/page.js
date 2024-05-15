@@ -1,25 +1,21 @@
 "use client";
 import LetsCreate from "@/components/letscreate";
-import NumberTalks from "@/components/numbertalks";
 import UserRecommend from "@/components/ourClient";
+import { Clients , Services} from "@/components";
+import HomeCarousel from "@/components/homeCarousel";
 import { HomeBanner, TextMarque } from "@/components";
-import { SharedLayout, SharedTopBanner } from "@/components/SharedComponent";
-import { Clients, Services } from "@/components";
-import Director from "@/components/director";
-import { FreeStart, ServiceImg } from "@/assets";
 
 const page = () => {
   return (
     <>
       <HomeBanner />
       <TextMarque />
-      {/* <SharedTopBanner bannerImage={ServiceImg} sectionsName={"Demo"} /> */}
+      {/* <HomeCarousel /> */}
       <Services />
       <Clients />
-      <UserRecommend />
       <LetsCreate />
-      {/* <NumberTalks /> */}
-      {/* <Director /> */}
+      <UserRecommend />
+     
     </>
   );
 };

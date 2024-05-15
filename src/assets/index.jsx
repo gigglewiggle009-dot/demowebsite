@@ -30,10 +30,19 @@ import arrowLeft from "./arrowLeft.png";
 import arrowRight from "./arrowRight.png";
 import BgAutoScan from "./bgAutoScan.png";
 import Shami from "./shami.jpg";
+import Sonu from './sonusood.jpeg'
+import Chat from './chatus.png'
+import Mobile from './mobile.png'
+import KyaBaat from './kyabathai.jpg';
+import Runjhun from './runjhun.jpg';
+import Employee from './employee.jpg';
+import Dhol from './dhol.jpg';
+import Compitition from './compitition.jpg';
+import Bana from './bana.jpg';
+import Arrowtwo from '../assets/Arrow2.png';
+import CarouselArrowright from '../assets/svg/craouselarrow.svg';
+import CarouselArrowleft from '../assets/svg/craouselleft.svg'
 import Ebhrahim from "./ebhrahim.jpg";
-import Sonu from "./sonusood.jpeg";
-import Chat from "./chatus.png";
-import Mobile from "./mobile.png";
 import FreeStart from "./freeStart.png";
 import aboutbanner from "./aboutbanner.png";
 import clientbanner from "./clientbanner.png";
@@ -41,6 +50,17 @@ import contactbanner from "./contactbanner.png";
 import servicebanner from "./servicebanner.png";
 
 export {
+  Arrowtwo,
+  CarouselArrowleft,
+  CarouselArrowright,
+  KyaBaat,
+  Runjhun,
+  Employee,
+  Dhol,
+  Compitition,
+  Bana,
+
+
   aboutbanner,
   clientbanner,
   contactbanner,

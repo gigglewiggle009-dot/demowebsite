@@ -12,7 +12,8 @@ const marqueContent = [
 
 export const TextMarque = () => {
   return (
-    <section>
+    <div className="bg-black">
+    <section className="py-16">
       <Marquee
         autoFill={true}
         pauseOnHover={true}
@@ -30,5 +31,6 @@ export const TextMarque = () => {
         ))}
       </Marquee>
     </section>
+    </div>
   );
 };

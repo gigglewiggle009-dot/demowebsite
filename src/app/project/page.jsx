@@ -10,7 +10,7 @@ function page() {
     <>
       <SmallBanner
         sectionsName="Project"
-        discriptions="All Project Details"
+        discriptions="We work with you to transform your organization, driving bold ideas and pragmatic solutions."
         bannerImage={aboutbanner.src}
       />
       <Project />
