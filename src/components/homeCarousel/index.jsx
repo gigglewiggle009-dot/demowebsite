@@ -10,7 +10,7 @@ const SampleNextArrow = (props) => {
   return (
     <img
       src={arrow.src}
-      className={`${className} custom-arrow next-arrow block absolute lg:!w-11 lg:!h-11 md:!w-9 md:!h-9 !h-7 !w-7 lg:mr-16 md:mr-12 mr-10 2xl:mt-4 !border-solid !border-2 !border-white z-999 rounded-sm !p-1 2x:p-4`}
+      className={`${className} block absolute !h-10 !w-10  lg:mr-16 md:mr-12 mr-10 2xl:mt-4 !border-solid !border-2 !border-white z-[999] rounded-sm !p-1 2x:p-4`}
       onClick={onClick}
       alt="Next Arrow"
     />
@@ -20,47 +20,48 @@ const SampleNextArrow = (props) => {
 const SamplePrevArrow = (props) => {
   const { className, onClick } = props;
   return (
-    <div className="  ">
-      <img
-        src={arrow.src}
-        className={`${className} custom-arrow next-arrow block absolute lg:!w-11 lg:!h-11 md:!w-9 md:!h-9 !h-7 !w-7  md:ml-12 lg:ml-16 ml-10 z-999 !border-solid !border-2 !border-white rounded-sm !p-1 `}
-        onClick={onClick}
-        alt="Next Arrow"
-      />
-    </div>
+    <img
+      src={arrow.src}
+      className={`${className} custom-arrow next-arrow block absolute !h-10 !w-10  lg:mr-16 md:mr-12 mr-10 2xl:mt-4 !border-solid !border-2 !border-white z-[999] rounded-sm !p-1 2x:p-4 !-rotate-180 !left-[20px]`}
+      onClick={onClick}
+      alt="Next Arrow"
+    />
   );
 };
 
 export const HomeCarousel = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dotsClass: "slick-dots ",
+    // dotsClass: "slick-dots ",
     nextArrow: <SampleNextArrow dir={true} />,
     prevArrow: <SamplePrevArrow dir={false} />,
   };
 
   return (
-    <div className="bg-white pb-32">
-      <div className="h-[500px]">
-        <Slider {...settings}>
-          {homeBannerData.map((item, index) => {
-            return (
-              <div key={index}>
-                <img
-                  className="w-full h-[482px]  "
-                  src={item.BannerImage}
-                  alt=""
-                />
-                <h1>number {index}</h1>
-              </div>
-            );
-          })}
-        </Slider>
+    <section className="bg-primaryBlack">
+      <div className="w-11/12 mx-auto">
+        <div className="bg-white ">
+          <div>
+            <Slider {...settings}>
+              {homeBannerData.map((item, index) => {
+                return (
+                  <div key={index} className="w-full h-full">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={item.BannerImage}
+                      alt=""
+                    />
+                  </div>
+                );
+              })}
+            </Slider>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
