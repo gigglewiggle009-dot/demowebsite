@@ -3,6 +3,7 @@ import VideoBg from "@/assets/svg/videoBackground.svg";
 
 
 export const SharedCard = ({ item, director, management }) => {
+    
     return (
         <div className='flex flex-col gap-5 shadow-xl relative rounded-xl overflow-hidden cursor-pointer bg-cardBg border bottom-2 border-[#5D4D6D] opacity-100 hover:scale-105 duration-300 transform'>
 

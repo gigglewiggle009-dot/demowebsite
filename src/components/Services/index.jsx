@@ -3,17 +3,27 @@ import { ServiceImg } from "@/assets";
 import { serviceData } from "@/constant";
 import { SharedHeading } from "../SharedComponent";
 import { LuCheckCircle } from "react-icons/lu";
+import { motion } from 'framer-motion'
 
 export const Services = () => {
   return (
     <div className="bg-primaryBlack text-white">
       <div className="w-full mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-[50%_50%] gap-4">
-          <div>
+          <motion.div
+           initial={{ y: -200, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1,ease:'easeOut' }}
+          >
             <img src={ServiceImg.src} className="h-full w-full" alt="Service" />
-          </div>
+          </motion.div>
           <div className="mx-16">
-            <div className="flex flex-col justify-center h-full w-full items-start space-y-8 ">
+            <motion.div
+             initial={{ x: 100, opacity: 0 }}
+            animate='animate'
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1,ease:'easeOut' }}
+             className="flex flex-col justify-center h-full w-full items-start space-y-8 ">
               <SharedHeading>{serviceData.header}</SharedHeading>
               <div className="text-base font-normal">{serviceData.details}</div>
               <div className="space-y-5">
@@ -32,7 +42,7 @@ export const Services = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
