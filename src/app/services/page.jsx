@@ -9,7 +9,7 @@ function page() {
     <div>
       <SmallBanner
         sectionsName="Service"
-        discriptions="Our service"
+        discriptions="We work with you to transform your organization, driving bold ideas and pragmatic solutions."
         bannerImage={servicebanner.src}
       />
       <Clients />

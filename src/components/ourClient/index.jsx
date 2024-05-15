@@ -57,7 +57,7 @@ const UserRecommend = () => {
   return (
     <div className="py-32 tablet:py-100 relative bg-black">
       <BgInfluencer className="absolute top-0 left-0 z-10 w-full h-full" />
-      <p className=" text-[62px]  font-semibold font-serif leading-67 text-center mb-32 z-20 relative">Our Happy Client</p>
+      <p className=" text-7xl  font-semibold font-serif leading-67 text-center mb-32 z-20 relative">Our Happy Client</p>
       <div className="mx-4 z-20 relative">
         <CustomCarousel direction={locale === "he" ? "rtl" : "ltr"} loop={true}>
           {userData.map((item, index) => (

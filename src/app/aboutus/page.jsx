@@ -1,4 +1,5 @@
 import { aboutbanner } from "@/assets";
+import { Services } from "@/components";
 import { SmallBanner } from "@/components/SharedComponent";
 import Director from "@/components/director";
 import LetsCreate from "@/components/letscreate";
@@ -10,10 +11,11 @@ function page() {
     <div>
       <SmallBanner
         sectionsName="About Us"
-        discriptions="All about us"
+        discriptions="We work with you to transform your organization, driving bold ideas and pragmatic solutions."
         bannerImage={aboutbanner.src}
       />
       <NumberTalks />
+      <Services />
       <Director />
       <LetsCreate />
     </div>

@@ -1,18 +1,26 @@
 import {
   AdvertisingStrategies,
   ArtistManagement,
+  Bana,
   Branding,
   Chat,
+  Compitition,
   ContentIdeas,
+  Dhol,
   DirectorOne,
   DirectorTwo,
   Ebhrahim,
+  Employee,
   GoogleAds,
   GoogleAnalytics,
   InstagramAds,
   Keyword,
+  
+  KyaBaat,
+  
   LeadGeneration,
   Mobile,
+  Runjhun,
   SEO,
   Shami,
   Sonu,
@@ -22,6 +30,45 @@ import {
   pintrest,
   twitter,
 } from "@/assets";
+
+export const homeBannerData = [
+  {
+    BannerImage: KyaBaat.src,
+    heading: "Preparing for a new global economy",
+    discriptions:
+      "We work with you to transform your organization,driving bold ideas and pragmatic solutions.",
+  },
+  {
+    BannerImage: Compitition.src,
+    heading: "Preparing for a new global economy",
+    discriptions:
+      "We work with you to transform your organization,driving bold ideas and pragmatic solutions.",
+  },
+  {
+    BannerImage: Bana.src,
+    heading: "Preparing for a new global economy",
+    discriptions:
+      "We work with you to transform your organization,driving bold ideas and pragmatic solutions.",
+  },
+  {
+    BannerImage: Employee.src,
+    heading: "Preparing for a new global economy",
+    discriptions:
+      "We work with you to transform your organization,driving bold ideas and pragmatic solutions.",
+  },
+  {
+    BannerImage: Runjhun.src,
+    heading: "Preparing for a new global economy",
+    discriptions:
+      "We work with you to transform your organization,driving bold ideas and pragmatic solutions.",
+  },
+  {
+    BannerImage: Dhol.src,
+    heading: "Preparing for a new global economy",
+    discriptions:
+      "We work with you to transform your organization,driving bold ideas and pragmatic solutions.",
+  },
+];
 
 export const contactData = [
   {

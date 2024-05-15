@@ -10,7 +10,7 @@ function page() {
       <SmallBanner
         bannerImage={clientbanner.src}
         sectionsName="Client"
-        discriptions="Description"
+        discriptions="We work with you to transform your organization, driving bold ideas and pragmatic solutions."
       />
       <UserRecommend />
       <LetsCreate />
