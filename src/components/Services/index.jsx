@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 export const Services = () => {
   return (
-    <div className="bg-primaryBlack text-white">
+    <div className="bg-primaryBlack text-white overflow-hidden">
       <div className="w-full mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-[50%_50%] gap-4">
           <motion.div
@@ -23,7 +23,7 @@ export const Services = () => {
             animate='animate'
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1,ease:'easeOut' }}
-             className="flex flex-col justify-center h-full w-full items-start space-y-8 ">
+             className="flex flex-col justify-center h-full w-full items-start space-y-8  ">
               <SharedHeading>{serviceData.header}</SharedHeading>
               <div className="text-base font-normal">{serviceData.details}</div>
               <div className="space-y-5">
