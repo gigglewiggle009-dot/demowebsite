@@ -2,17 +2,22 @@ import {
   AdvertisingStrategies,
   ArtistManagement,
   Bana,
+  BoothManagement,
   Branding,
   Chat,
   Compitition,
   ContentIdeas,
+  DailyEvent,
+  DailyEventGraphics,
   Dhol,
   DirectorOne,
   DirectorTwo,
   Ebhrahim,
   Employee,
+  Facebook,
   GoogleAds,
   GoogleAnalytics,
+  GroundSurvey,
   InstagramAds,
   Keyword,
   
@@ -20,10 +25,14 @@ import {
   
   LeadGeneration,
   Mobile,
+  NukkadNatak,
   Runjhun,
   SEO,
+  SclMedia,
   Shami,
   Sonu,
+  Twitter,
+  VideoShooting,
   YoutubeAds,
   fb,
   insta,
@@ -74,29 +83,31 @@ export const contactData = [
   {
     image: Chat,
     heading: "Headquarters",
-    details: ["Plot no. 26, mahaveer nagar vistar yojana,kota, 324005"],
+    details: ["Plot No. 26, Mahaveer Nagar Vistar Yojana,Kota, Rajasthan 324005, India"],
   },
   {
     image: Mobile,
     heading: "Email Address",
-    details: ["promodaddydigital@gmail.com", "promodaddydigital@gmail.com"],
+    details: ["promodaddydigital@gmail.com", ""],
   },
   {
     image: Mobile,
     heading: "Phone Number",
-    details: ["+91 9001040527", "+91 9602089182"],
+    details: ["+91 9784872364", "+91 9602089182"],
   },
 ];
 
 export const serviceData = {
   header: "We Offer a Wide Range of Brand Services",
   details:
-    "At PromoDaddy Digital, we're passionate about helping businesses thrive in the digital age. We offer a comprehensive suite of services designed to elevate your online presence and achieve your marketing goals",
-  subtext1: "EXPERTISE ACROSS ALL CHANNELS",
+  "At PromoDaddy Digital, we are dedicated to helping businesses succeed in the digital age. Our comprehensive suite of services is designed to enhance your online presence and achieve your marketing goals",
+  subtext1: "ELECTION CAMPAIIGN CONTENT",
   subtext2: "DATA-DRIVEN STRATEGIES:",
   subtext3: "CONTENT THAT CONNECTS",
   subtext4: "ARTIST MANAGEMENT EXPERTISE",
   subtext5: "LEAD GENERATION POWERHOUSE",
+  subtext6: "EXPERTISE ACROSS ALL CHANNELS",
+  
 };
 export const director = [
   {
@@ -126,33 +137,80 @@ export const management = [
   },
 ];
 
+export const ourElectionClient = [
+  {
+    header: "Ground surveys and public opinion",
+    text: "Creates and manages targeted online ads on Google Search and partner websites.",
+    img: GroundSurvey.src,
+  },
+  {
+    header: "Daily event videos",
+    text: "Create engaging daily event videos that capture the essence of each occasion. These dynamic visuals highlight key moments and enhance audience engagement across various platforms.",
+    img: DailyEvent.src,
+  },
+  {
+    header:
+      "Daily event graphics",
+    text: "Craft eye-catching daily event graphics that capture attention and enhance engagement. Our tailored designs ensure your events stand out across all platforms, effectively communicating your message and attracting your audience.",
+    img: DailyEventGraphics.src,
+  },
+  {
+    header:
+      "Video shooting & Photography",
+    text: "Provide professional video shooting and photography services to capture your events and moments in stunning detail. High-quality visuals enhance your storytelling and create lasting memories for your audience.",
+    img: VideoShooting.src,
+  },
+  {
+    header: "Nukkad Natak",
+    text: "Organize and produce impactful nukkad nataks that address key social issues, engaging local communities through lively performances. This service includes script development, casting, and logistics to ensure each event resonates with the audience and promotes meaningful dialogue.",
+    img: NukkadNatak.src,
+  },
+  {
+    header: "Booth Management",
+    text: "Expertly manage your event presence with our comprehensive booth management services. We handle design, setup, and logistics, ensuring your booth effectively engages attendees and maximizes brand visibility.",
+    img: BoothManagement.src,
+  },
+  
+  
+];
 export const ourClient = [
   {
     header: "Google Ad Expert",
-    text: "Creates and manages targeted online ads on Google Search and partner websites.",
+    text: "Focused online advertising campaigns on Google Search and partner websites. We leverage strategic targeting to ensure your ads reach the right audience, maximizing engagement and conversions.",
     img: GoogleAds.src,
   },
   {
-    header: "YouTube Advertising 1k views 100 rupees",
-    text: "Develops video ad campaigns to reach audiences on YouTube.",
+    header: "YouTube Ads",
+    text: "Capture the attention of voters with eye-catching video ads on the world's largest video platform.",
     img: YoutubeAds.src,
   },
   {
     header:
-      "Instagram Advertising and Facebook Ads (1M impression in 10000 rupees)",
-    text: "Runs targeted ads on Instagram and Facebook to connect with specific demographics",
+      "Instagram Ads",
+    text: "Reach a wide audience with targeted Instagram ads that drive engagement and conversions.",
     img: InstagramAds.src,
   },
   {
+    header: "Facebook",
+    text: "Leverage the power of Facebook's advanced targeting capabilities to reach your ideal voters.",
+    img: Facebook.src,
+  },
+  {
     header:
-      "Keyword Research (charges depend on keyword volume min charges 500 inr)",
-    text: "Discovers relevant keywords to optimize content and target advertising campaigns.",
+      "Twitter Ads",
+    text: "We specialize in creating and managing effective Twitter ad campaigns.",
+    img: Twitter.src,
+  },
+  {
+    header:
+      "Keyword Research",
+    text: "We conduct in-depth keyword research to optimize your content and enhance advertising effectiveness. Our targeted searches improve visibility, connect you with the right audience, and include competitive analysis.",
     img: Keyword.src,
   },
   {
-    header: "Artist Management",
-    text: "Provides guidance, support, and representation for artists or creators.",
-    img: ArtistManagement.src,
+    header: "Manage Social Media Accounts​",
+    text: "Our team efficiently handles all aspects of social media account management. Also include Fan Pages, and Third-Party Propaganda Pages",
+    img: SclMedia.src,
   },
   {
     header: "Branding",
@@ -161,22 +219,18 @@ export const ourClient = [
   },
   {
     header: "Content Management and Ideas",
-    text: "Creates, manages, and curates engaging content for various platforms.",
+    text: "Streamline your content strategy with innovative ideas and effective management. Our team develops strategic content plans, optimizes for visibility, and tracks performance to ensure your messaging engages your audience and drives results.",
     img: ContentIdeas.src,
   },
   {
     header: "Advertisement Strategy",
-    text: "Develops a comprehensive plan to reach your target audience through different advertising channels.",
+    text: "Develop a comprehensive advertising strategy designed to effectively reach your target audience across multiple channels. Our tailored approach ensures that your message resonates and drives engagement.",
     img: AdvertisingStrategies.src,
   },
-  {
-    header: "Google Analytics",
-    text: "Analyzes website traffic data to understand user behavior and improve marketing efforts.",
-    img: GoogleAnalytics.src,
-  },
+  
   {
     header: "SEO",
-    text: "Optimizes your website and online presence to rank higher in search engine results.",
+    text: "Focus on optimizing your website and overall online visibility to climb search engine rankings. Our tailored SEO strategies include keyword research, on-page optimization, and technical enhancements.",
     img: SEO.src,
   },
   {
@@ -184,12 +238,7 @@ export const ourClient = [
     text: "Attracts and captures potential customer interest for your business.",
     img: LeadGeneration.src,
   },
-  {
-    header:
-      "Keyword Research (charges depend on keyword volume min charges 500 inr)",
-    text: "Discovers relevant keywords to optimize content and target advertising campaigns.",
-    img: Keyword.src,
-  },
+  
 ];
 
 export const navTitle = [

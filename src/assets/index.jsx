@@ -1,7 +1,7 @@
 import HothurFoundation from "./hothurfoundation.png";
 import DirectorOne from "./shubam.jpg";
 import DirectorTwo from "./nikhil.jpg";
-import logo from "./logo.png";
+import logo from "./newLogo.png";
 import ServiceImg from "./services.jpg";
 import GoogleAds from "./googleAd.png";
 import YoutubeAds from "./youtubeAds.png";
@@ -47,8 +47,38 @@ import clientbanner from "./clientbanner.png";
 import contactbanner from "./contactbanner.png";
 import servicebanner from "./servicebanner.png";
 import arrow from "./arrow.png";
+import BrandService from './brandService.webp'
+import GroundSurvey from './groundSurvey.webp'
+import DailyEventGraphics from './dailyEventGraphics.webp'
+import VideoShooting from './videoShooting.webp'
+import DailyEvent from './dailyEvent.jpg'
+import NukkadNatak from './nukkadNatak.jpg'
+import BoothManagement from './boothManagement.webp'
+import Facebook from './fbk.png'
+import Twitter from './twitter.jpg'
+import SclMedia from './maagesocialmedia.webp'
+import A from './a.jpg'
+import B from './b.jpg'
+import C from './c.jpg'
+import D from './d.jpg'
+import E from './e.jpg'
+import F from './f.jpeg'
+import G from './g.JPG'
+import H from './H.jpeg'
+
 
 export {
+  A,B,C,D,E,F,G,H,
+  SclMedia,
+  Facebook,
+  Twitter,
+  NukkadNatak,
+  BoothManagement,
+  VideoShooting,
+  DailyEventGraphics,
+  DailyEvent,
+  GroundSurvey,
+  BrandService,
   Arrowtwo,
   KyaBaat,
   Runjhun,

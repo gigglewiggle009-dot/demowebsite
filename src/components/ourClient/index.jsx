@@ -6,7 +6,7 @@ import CustomCarousel from "../SharedComponent/customCarousel";
 
 import BgInfluencer from "@/assets/svg/bgInfluencer.svg";
 import { useRouter } from "next/navigation";
-import { Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8 } from "@/assets";
+import { A, B, C, D, E, F, G, Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8 } from "@/assets";
 import {motion} from "framer-motion"
 
 const userData = [
@@ -50,16 +50,51 @@ const userData = [
     image: Influencer8,
     name: "Yogesh Lakhani",
     desc: "Film Actor"
-  }
+  },
+  {
+    image: A,
+    name: "Mohammed Shami",
+    desc: "Indian Cricketer"
+  },
+  {
+    image: B,
+    name: "Srinivas BV ",
+    desc: "National President of NSUI"
+  },
+  {
+    image: C,
+    name: "Ashok Chandna ",
+    desc: "Sports Minister of Rajasthan and MLA of Hindoli Rajasthan"
+  },
+  {
+    image: D,
+    name: "Sonu Sood",
+    desc: "Film Actor"
+  },
+  {
+    image: E,
+    name: "Mahima Chaudhary",
+    desc: "Film Actress"
+  },
+  {
+    image: F,
+    name: "Our Team Work",
+    desc: ""
+  },
+  {
+    image: G,
+    name: "Shashikant Senthil",
+    desc: "Indian InterMember of the Lok Sabha National Chairmen of the War room for Congress"
+  },
 ];
 
 const UserRecommend = () => {
   const { locale } = useRouter();
   return (
-    <div className="py-32 tablet:py-100 relative bg-black">
+    <div className="relative py-32 bg-black tablet:py-100">
       <BgInfluencer className="absolute top-0 left-0 z-10 w-full h-full" />
-      <p className=" text-7xl  font-semibold font-serif leading-67 text-center mb-32 z-20 relative">Our Happy Client</p>
-      <div className="mx-4 z-20 relative">
+      <p className="relative z-20 mb-32 font-serif font-semibold text-center text-7xl leading-67">Our Happy Client</p>
+      <div className="relative z-20 mx-4">
         <CustomCarousel direction={locale === "he" ? "rtl" : "ltr"} loop={true}>
           {userData.map((item, index) => (
             <motion.div
@@ -73,9 +108,9 @@ const UserRecommend = () => {
               })}
               key={index}
             >
-              <img src={item.image.src} alt="img" className="w-[250px] h-[390px] rounded-2xl object-cover" />
-              <h1 className="text-4xl py-2 text-gray-500 font-semibold font-serif">{item.name}</h1>
-              <p className="text-2xl text-blue-gray-400 font-semibold">{item.desc}</p>
+              <img src={item.image.src} alt="img" className="w-[250px] h-[390px] rounded-2xl object-fill" />
+              <h1 className="py-2 font-serif text-4xl font-semibold text-gray-500">{item.name}</h1>
+              <p className="text-2xl font-semibold text-blue-gray-400 w-[300px]">{item.desc}</p>
             </motion.div>
           ))}
         </CustomCarousel>

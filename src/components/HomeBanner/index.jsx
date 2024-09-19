@@ -36,7 +36,7 @@ export const HomeBanner = () => {
         </motion.div>
         <div className={styles.heroDescription} >
           <p>{(
-            "Experience the top tier freight services reliable, efficient, and tailored to your needs."
+            "We specialize in creating immersive and engaging user experiences that captivate your audience and drive meaningful interactions"
           )
             .split(" ")
             .map((el, i) => (

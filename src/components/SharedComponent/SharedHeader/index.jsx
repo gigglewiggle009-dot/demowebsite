@@ -18,13 +18,13 @@ export const SharedHeader = () => {
   };
 
   return (
-    <header className="py-5 bg-primaryBlack sticky top-0 z-[999]">
+    <header className="py-5 bg-primaryBlack sticky top-0 z-[999] ">
       <div className="w-11/12 mx-auto">
         <div className="flex items-center justify-between">
           <div className="h-[70px] w-[70px]">
-            <img src={logo.src} alt="logo" className="h-full w-full" />
+            <img src={logo.src} alt="logo" className="w-full h-full" />
           </div>
-          <div className="hidden lg:flex items-center gap-[140px] justify-around">
+          <div className="hidden lg:flex items-center gap-[140px] justify-around ">
             <div className="flex items-center gap-10">
               {navTitle.map((nav, index) => (
                 <Link href={nav.link} key={index}>
@@ -37,15 +37,15 @@ export const SharedHeader = () => {
             <div>
             <Link href={'./contact'}>
             <SharedButton
-                text="WORKS WITH US"
+                text="WORK WITH US"
                 className="text-white font-bold text-sm bg-primaryBlue px-4 py-1 rounded-lg *:"
               >
-                WORKS WITH US
+                WORK WITH US
               </SharedButton>
               </Link>
             </div>
           </div>
-          <button className="block lg:hidden text-white" onClick={toggleDrawer}>
+          <button className="block text-white lg:hidden" onClick={toggleDrawer}>
             Show
           </button>
           <div className="block lg:hidden">

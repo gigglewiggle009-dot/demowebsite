@@ -7,14 +7,14 @@ export const MobileDrawer = () => {
   return (
     <div className="px-10 pt-10">
       <div className="h-[70px] w-[70px]">
-        <img src={logo.src} alt="logo" className="h-full w-full" />
+        <img src={logo.src} alt="logo" className="w-full h-full" />
       </div>
-      <div className="space-y-2 mt-5">
+      <div className="mt-5 space-y-2">
         {navTitle.map((nav, index) => (
           <Link
             href={nav.link}
             key={index}
-            className="block w-fit font-bold text-sm"
+            className="block text-sm font-bold w-fit"
           >
             {nav.name}
           </Link>
@@ -22,8 +22,8 @@ export const MobileDrawer = () => {
       </div>
       <div className="mt-5">
         <SharedButton
-          text="WORKS WITH US"
-          className="font-bold text-sm text-white bg-primaryBlack px-5 py-4 rounded-none"
+          text="WORK WITH US"
+          className="px-5 py-4 text-sm font-bold text-white rounded-none bg-primaryBlack"
         />
       </div>
     </div>
