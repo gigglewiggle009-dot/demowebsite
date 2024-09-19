@@ -320,7 +320,7 @@ export const footerTitle = {
       },
       {
         name: "ReFund",
-        link: "/reFund",
+        link: "/refund",
       },
     ],
   },
