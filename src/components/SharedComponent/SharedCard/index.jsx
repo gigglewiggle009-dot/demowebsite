@@ -16,14 +16,14 @@ export const SharedCard = ({ item, director, management }) => {
                 ) : (
                     <>
                         <h1 className='text-xl font-semibold text-blue-200'>{item?.header}</h1>
-                        <p className='text-lg mt-4 text-gray-400'>{item?.text}</p>
+                        <p className='mt-4 text-lg text-gray-400'>{item?.text}</p>
                     </>
                 )}
                 {/* Management Condition */}
                 {management && (
                     <>
                         <h1 className='text-3xl font-semibold text-center text-gray-400'>{item?.header}</h1>
-                        <p className='text-sm mt-4'>{item?.text}</p>
+                        <p className='mt-4 text-sm'>{item?.text}</p>
                     </>
                 )}
             </div>

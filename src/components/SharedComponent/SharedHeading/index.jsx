@@ -3,7 +3,7 @@
 export const SharedHeading = ({children}) => {
     return (
         <div>
-            <div className="text-5xl font-bold ">{children}</div>
+            <div className="mt-4 text-2xl font-bold lg:text-4xl">{children}</div>
         </div>
     )
 };

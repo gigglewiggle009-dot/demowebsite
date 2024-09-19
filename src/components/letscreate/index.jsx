@@ -4,10 +4,10 @@ import {motion} from "framer-motion"
 
 const LetsCreate = () => {
   return (
-    <div className="bg-black py-10">
+    <div className="py-10 bg-black">
       <div className="flex justify-center w-11/12 mx-auto">
-        <div className="w-full text-center relative p-4 tablet:p-8">
-          <p className="font-semibold text-7xl leading-9 tablet:leading-3 py-8 px-5 font-serif">
+        <div className="relative w-full p-4 text-center tablet:p-8">
+          <p className="px-5 py-8 font-serif text-3xl font-semibold leading-9 md:text-7xl tablet:leading-3">
            
             {(
             " Let's Create Something Great"
@@ -46,14 +46,14 @@ const LetsCreate = () => {
               </motion.span>
             ))}
           </p>
-          <div className="flex flex-col tablet:flex-row justify-center items-center text-18 font-medium">
+          <div className="flex flex-col items-center justify-center font-medium tablet:flex-row text-18">
             <div className="rounded-xl p-[2px]">
               <motion.button
                initial={{opacity:0,scale:0}}
                whileInView={{opacity:1,scale:1,transition:{duration:1}}}
                whileHover={{scale:1.05}}
                whileTap={{scale:0.9}}
-               className="bg-primaryBlue p-4 rounded-xl text-white font-serif font-bold mb-8">
+               className="p-4 mb-8 font-serif font-bold text-white bg-primaryBlue rounded-xl">
                 LET&apos;S TALK WITH US
               </motion.button>
             </div>
@@ -65,7 +65,7 @@ const LetsCreate = () => {
             duration: 1,
             ease:"easeInOut"
           }}
-          className="flex justify-center relative">
+          className="relative flex justify-center">
             <img
               src={HothurFoundation.src}
               alt="img"
@@ -74,7 +74,7 @@ const LetsCreate = () => {
           <img
             src={BgAutoScan?.src}
             alt="background"
-            className="absolute bottom-0 left-[7%]"
+            className="absolute bottom-0 left-[-1%] lg:left-[7%]"
           />
         </div>
       </div>

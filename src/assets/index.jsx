@@ -65,10 +65,11 @@ import E from './e.jpg'
 import F from './f.jpeg'
 import G from './g.JPG'
 import H from './H.jpeg'
+import M from './m.jpg'
 
 
 export {
-  A,B,C,D,E,F,G,H,
+  A,B,C,D,E,F,G,H,M,
   SclMedia,
   Facebook,
   Twitter,

@@ -5,7 +5,7 @@ import { logo } from "@/assets";
 
 export const MobileDrawer = () => {
   return (
-    <div className="px-10 pt-10">
+    <div className="px-10 pt-10 bg-black h-[1800px]">
       <div className="h-[70px] w-[70px]">
         <img src={logo.src} alt="logo" className="w-full h-full" />
       </div>
@@ -20,12 +20,12 @@ export const MobileDrawer = () => {
           </Link>
         ))}
       </div>
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <SharedButton
           text="WORK WITH US"
           className="px-5 py-4 text-sm font-bold text-white rounded-none bg-primaryBlack"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

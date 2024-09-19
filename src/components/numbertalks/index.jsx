@@ -15,10 +15,10 @@ const NumberTalks = () => {
 
 
   return (
-    <section className="  py-8  bg-black ">
+    <section className="py-8 bg-black ">
       <div className="w-11/12 mx-auto">
-        <div className="  py-8 lg:py-24">
-          <div className="grid grid-cols-3  gap-8">
+        <div className="py-8 lg:py-24">
+          <div className="grid gap-8 lg:grid-cols-3">
             {countSections.map((section, index) => (
               <ScrollTrigger
                 key={index}
@@ -37,7 +37,7 @@ const NumberTalks = () => {
                     )}
                     &nbsp;+
                   </div>
-                  <div className="xl:text-4xl px-8 font-Inter lg:text-3xl md:text-sm text-xl whitespace-nowrap text-start py-4 text-gray-700">
+                  <div className="px-8 py-4 text-xl text-gray-700 xl:text-4xl font-Inter lg:text-3xl md:text-sm whitespace-nowrap text-start">
                     {section.label}
                   </div>
                   <div className="px-8">

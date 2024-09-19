@@ -9,13 +9,13 @@ export const Services = () => {
   return (
     <div className="overflow-hidden text-white bg-primaryBlack">
       <div className="w-full mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-[50%_50%] gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-[50%_50%] gap-4 items-center">
           <motion.div
            initial={{ y: -200, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1,ease:'easeOut' }}
           >
-            <img src={BrandService.src} className="w-[550px] mx-auto h-full rounded-full " alt="Service" />
+            <img src={BrandService.src} className="lg:w-[450px] w-[330px] md:h-[430px] md:w-[430px]  mx-auto h-full rounded-full " alt="Service" />
           </motion.div>
           <div className="mx-16">
             <motion.div
@@ -31,7 +31,7 @@ export const Services = () => {
             animate='animate'
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1,ease:'easeOut' }}
-               className="space-y-5">
+               className="space-y-5 text-sm text-nowrap">
                 {[
                   serviceData.subtext1,
                   serviceData.subtext2,

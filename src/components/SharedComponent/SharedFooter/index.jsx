@@ -19,32 +19,32 @@ export const SharedFooter = () => {
 
   return (
     <footer className="bg-primaryBlack">
-      <div className="w-11/12 mx-auto px-2 py-10">
-        <div className="flex gap-7">
-          <div className="w-[30%]">
+      <div className="w-11/12 px-2 py-10 mx-auto">
+        <div className="flex flex-col lg:flex-row gap-7">
+          <div className="lg:w-[30%]">
             <h1 className="text-3xl font-bold">PromoDaddy Digital</h1>
             <div>
               <div className="w-[80px] h-[80px] mt-8">
-                <img src={logo.src} className="h-full w-full" alt="logo" />
+                <img src={logo.src} className="w-full h-full" alt="logo" />
               </div>
-              <div className="mt-5 relative">
-                <GoArrowUpRight className="h-8 w-8 absolute top-2 right-1 text-black " />
+              <div className="relative mt-5">
+                <GoArrowUpRight className="absolute w-8 h-8 text-black top-2 right-1 " />
                 <input
                   type="email"
                   placeholder="Your email here"
-                  className="text-lg text-black py-3 px-3 rounded-lg w-full outline-none"
+                  className="w-full px-3 py-3 text-lg text-black rounded-lg outline-none"
                 />
               </div>
-              <p className="text-sm mt-4 leading-5">
+              <p className="mt-4 text-sm leading-5">
                 By signing up to receive emails from Motto, you agree to our
                 Privacy Policy. We treat your info responsibly.
               </p>
             </div>
           </div>
           <div className="w-[70%]">
-            <div className="w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid w-full gap-5 mx-auto md:grid-cols-2 lg:grid-cols-3">
               <div>
-                <h6 className="text-primaryWhite text-22 font-bold leading-30">
+                <h6 className="font-bold text-primaryWhite text-22 leading-30">
                   {footerTitle?.linkOne.title}
                 </h6>
                 <div className="mt-0 mb-8">
@@ -55,9 +55,9 @@ export const SharedFooter = () => {
                     <Link
                       key={index}
                       href={content.link}
-                      className="block text-base w-fit transition-all duration-300 ease-in-out"
+                      className="block text-base transition-all duration-300 ease-in-out w-fit"
                     >
-                      <span className="group relative inline-block">
+                      <span className="relative inline-block group">
                         <span className="flex items-center gap-x-2 bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out py-1">
                           <MdOutlineDoubleArrow />
                           <span>{content.name}</span>
@@ -68,7 +68,7 @@ export const SharedFooter = () => {
                 </div>
               </div>
               <div>
-                <h6 className="text-primaryWhite text-22 font-bold leading-30">
+                <h6 className="font-bold text-primaryWhite text-22 leading-30">
                   {footerTitle?.linkTwo.title}
                 </h6>
                 <div className="mt-0 mb-8">
@@ -79,9 +79,9 @@ export const SharedFooter = () => {
                     <Link
                       key={index}
                       href={content.link}
-                      className="block text-base w-fit transition-all duration-300 ease-in-out"
+                      className="block text-base transition-all duration-300 ease-in-out w-fit"
                     >
-                      <span className="group relative inline-block">
+                      <span className="relative inline-block group">
                         <span className="flex items-center gap-x-2 bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out py-1">
                           <MdOutlineDoubleArrow />
                           <span>{content.name}</span>
@@ -93,7 +93,7 @@ export const SharedFooter = () => {
               </div>
               <div>
                 <div className="text-primaryWhite">
-                  <h6 className="text-primaryWhite text-22 font-bold leading-30">
+                  <h6 className="font-bold text-primaryWhite text-22 leading-30">
                     Contact
                   </h6>
                   <div className="mt-0 mb-8">
@@ -119,8 +119,8 @@ export const SharedFooter = () => {
           </div>
         </div>
       </div>
-      <div className="w-11/12 mx-auto py-7 border-t border-brown ">
-        <p className="text-center text-14 font-light text-primaryWhite">
+      <div className="w-11/12 mx-auto border-t py-7 border-brown ">
+        <p className="font-light text-center text-14 text-primaryWhite">
           © 2024 PromoDaddy Digital. All rights reserved.
         </p>
       </div>

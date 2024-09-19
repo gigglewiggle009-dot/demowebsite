@@ -2,7 +2,7 @@
     @apply bg-black border border-black relative h-[85vh] overflow-hidden;
 
     .textPosition {
-        @apply h-full flex flex-col justify-start tablet:justify-start z-20;
+        @apply h-full flex flex-col justify-start tablet:justify-start z-20 md:py-16 py-24;
 
         .heroTitle {
             @apply text-center text-white mt-10 md:mt-16 max-w-[700px] desktop:max-w-[1100px] mx-auto px-5 leading-[38px] tablet:leading-[40px] relative z-30;
@@ -55,7 +55,7 @@
     }
 
     .video {
-        @apply max-w-[220%] w-[220%] mx-auto -translate-x-[25%] h-72 rounded-b-3xl z-10 -mt-0 tablet:-mt-20 overflow-hidden absolute bottom-0;
+        @apply  max-w-[220%] w-[220%] mx-auto -translate-x-[25%] h-72 rounded-b-3xl z-10 -mt-8 tablet:-mt-20 overflow-hidden absolute bottom-0;
 
         @screen tablet {
             @apply max-w-[170%] w-[170%] -translate-x-[18%] h-fit;

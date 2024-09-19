@@ -309,10 +309,7 @@ export const footerTitle = {
   linkTwo: {
     title: "Links",
     content: [
-      {
-        name: "Blog",
-        link: "/blog",
-      },
+     
       {
         name: "Privacy Policy",
         link: "/privacypolicy",

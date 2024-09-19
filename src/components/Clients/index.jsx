@@ -18,7 +18,7 @@ export const Clients = () => {
 
                     <SharedHeading>Election campaign content </SharedHeading>
                 </div>
-                <div className='grid grid-cols-3 gap-10'>
+                <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
                     {
                         ourElectionClient?.map((item, index) =>
                            
@@ -33,7 +33,7 @@ export const Clients = () => {
                 <SharedHeading>Social Media Services </SharedHeading>
                     </div>
                 
-                <div className='grid grid-cols-3 gap-10'>
+                <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
                     {
                         ourClient?.map((item, index) =>
                            

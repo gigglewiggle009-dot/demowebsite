@@ -6,7 +6,7 @@ import CustomCarousel from "../SharedComponent/customCarousel";
 
 import BgInfluencer from "@/assets/svg/bgInfluencer.svg";
 import { useRouter } from "next/navigation";
-import { A, B, C, D, E, F, G, Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8 } from "@/assets";
+import { A, B, C, D, E, F, G, H, Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8 } from "@/assets";
 import {motion} from "framer-motion"
 
 const userData = [
@@ -51,11 +51,7 @@ const userData = [
     name: "Yogesh Lakhani",
     desc: "Film Actor"
   },
-  {
-    image: A,
-    name: "Mohammed Shami",
-    desc: "Indian Cricketer"
-  },
+ 
   {
     image: B,
     name: "Srinivas BV ",
@@ -66,11 +62,7 @@ const userData = [
     name: "Ashok Chandna ",
     desc: "Sports Minister of Rajasthan and MLA of Hindoli Rajasthan"
   },
-  {
-    image: D,
-    name: "Sonu Sood",
-    desc: "Film Actor"
-  },
+ 
   {
     image: E,
     name: "Mahima Chaudhary",
@@ -82,9 +74,24 @@ const userData = [
     desc: ""
   },
   {
-    image: G,
+    image: H,
     name: "Shashikant Senthil",
-    desc: "Indian InterMember of the Lok Sabha National Chairmen of the War room for Congress"
+    desc: "Indian InterMember of the Lok Sabha National Chairman of the War Room, Congress"
+  },
+  {
+    image: A,
+    name: "Mohammed Shami",
+    desc: "Indian Cricketer"
+  },
+  {
+    image: G,
+    name: "Mohammed Shami",
+    desc: "Indian Cricketer"
+  },
+  {
+    image: D,
+    name: "Sonu Sood",
+    desc: "Film Actor"
   },
 ];
 
@@ -93,7 +100,7 @@ const UserRecommend = () => {
   return (
     <div className="relative py-32 bg-black tablet:py-100">
       <BgInfluencer className="absolute top-0 left-0 z-10 w-full h-full" />
-      <p className="relative z-20 mb-32 font-serif font-semibold text-center text-7xl leading-67">Our Happy Client</p>
+      <p className="relative z-20 font-serif text-3xl font-semibold text-center mb:16 md:mb-32 md:text-7xl leading-67">Our Happy Client</p>
       <div className="relative z-20 mx-4">
         <CustomCarousel direction={locale === "he" ? "rtl" : "ltr"} loop={true}>
           {userData.map((item, index) => (

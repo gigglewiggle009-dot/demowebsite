@@ -9,6 +9,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { usePathname } from "next/navigation";
 import styles from "@/components/HomeBanner/style.module.scss";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export const SharedHeader = () => {
   const path = usePathname();
@@ -18,7 +19,7 @@ export const SharedHeader = () => {
   };
 
   return (
-    <header className="py-5 bg-primaryBlack sticky top-0 z-[999] ">
+    <header className="py-5 bg-primaryBlack top-0 z-[999] fixed w-full">
       <div className="w-11/12 mx-auto">
         <div className="flex items-center justify-between">
           <div className="h-[70px] w-[70px]">
@@ -45,15 +46,15 @@ export const SharedHeader = () => {
               </Link>
             </div>
           </div>
-          <button className="block text-white lg:hidden" onClick={toggleDrawer}>
-            Show
+          <button className="block ml-[250px] text-white lg:hidden" onClick={toggleDrawer}>
+          <GiHamburgerMenu className="w-10 h-10" />
           </button>
           <div className="block lg:hidden">
             <Drawer
               open={isOpen}
               onClose={toggleDrawer}
               direction="right"
-              className="!w-[250px] sm:!w-[400px]"
+              className="!w-[250px] sm:!w-[400px] "
             >
               <MobileDrawer />
             </Drawer>
