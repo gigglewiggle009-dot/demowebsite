@@ -106,7 +106,7 @@ export const SharedFooter = () => {
                   <div className="mt-8">
                     <a className="flex items-center gap-x-2" href="tel:+919602089182">
                       <BiSolidPhoneCall className="text-xl" />
-                      <span>+91 9602089182</span>
+                      <span>+91 9602089182, 8690522210</span>
                     </a>
                     <a className="flex items-center gap-x-2" href="mailto:promodaddydigital@gmail.com">
                       <MdOutlineMailOutline className="text-xl" />
