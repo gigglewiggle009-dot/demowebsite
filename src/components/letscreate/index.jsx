@@ -6,7 +6,7 @@ const LetsCreate = () => {
   return (
     <div className="py-10 bg-black">
       <div className="flex justify-center w-11/12 mx-auto">
-        <div className="relative w-full p-4 text-center tablet:p-8">
+        {/* <div className="relative w-full p-4 text-center tablet:p-8">
           <p className="px-5 py-8 font-serif text-3xl font-semibold leading-9 md:text-7xl tablet:leading-3">
            
             {(
@@ -76,7 +76,7 @@ const LetsCreate = () => {
             alt="background"
             className="absolute bottom-0 left-[-1%] lg:left-[7%]"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

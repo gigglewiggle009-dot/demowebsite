@@ -101,7 +101,7 @@ export const SharedFooter = () => {
                   </div>
                   <div className="flex items-start gap-2">
                     <FaAddressBook className="text-2xl" />
-                    <p>Plot no. 26, mahaveer nagar vistar yojana, kota, 324005</p>
+                    <p>Plot No. 26, Mahaveer Nagar Vistar Yojana, Kota, Rajasthan - 324005, India</p>
                   </div>
                   <div className="mt-8">
                     <a className="flex items-center gap-x-2" href="tel:+919602089182">

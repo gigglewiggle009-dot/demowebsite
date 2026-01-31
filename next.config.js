@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
     domains: [],
+     formats: ["image/avif", "image/webp"],
   },
 
   // Adding the standalone output configuration

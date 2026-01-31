@@ -66,9 +66,16 @@ import F from './f.jpeg'
 import G from './g.JPG'
 import H from './H.jpeg'
 import M from './m.jpg'
+import KulsumShadabWahab from './Kulsum-ShadabWahab.jpg'
+import SonuSoodFoundation from './scf.jpeg'
+import EbrahimMhyn from './ebrahimMhyn.jpg'
+
 
 
 export {
+  EbrahimMhyn,
+  KulsumShadabWahab,
+  SonuSoodFoundation,
   A,B,C,D,E,F,G,H,M,
   SclMedia,
   Facebook,

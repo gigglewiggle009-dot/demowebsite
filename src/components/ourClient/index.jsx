@@ -6,7 +6,7 @@ import CustomCarousel from "../SharedComponent/customCarousel";
 
 import BgInfluencer from "@/assets/svg/bgInfluencer.svg";
 import { useRouter } from "next/navigation";
-import { A, B, C, D, E, F, G, H, Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8 } from "@/assets";
+import { A, B, C, D, E, F, G, H, Influencer1, Influencer2, Influencer3, Influencer4, Influencer5, Influencer6, Influencer7, Influencer8, HothurFoundation } from "@/assets";
 import {motion} from "framer-motion"
 
 const userData = [
@@ -68,6 +68,12 @@ const userData = [
     name: "Mahima Chaudhary",
     desc: "Film Actress"
   },
+
+  {
+    image: HothurFoundation,
+    name: "Hothur Foundation",
+  },
+
   {
     image: F,
     name: "Our Team Work",

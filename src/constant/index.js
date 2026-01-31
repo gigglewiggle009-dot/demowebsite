@@ -20,9 +20,7 @@ import {
   GroundSurvey,
   InstagramAds,
   Keyword,
-  
   KyaBaat,
-  
   LeadGeneration,
   Mobile,
   NukkadNatak,
@@ -38,6 +36,9 @@ import {
   insta,
   pintrest,
   twitter,
+  KulsumShadabWahab,
+  SonuSoodFoundation,
+  EbrahimMhyn,
 } from "@/assets";
 
 export const homeBannerData = [
@@ -93,7 +94,7 @@ export const contactData = [
   {
     image: Mobile,
     heading: "Phone Number",
-    details: ["+91 9784872364", "+91 9602089182"],
+    details: ["+91 9602089182"],
   },
 ];
 
@@ -126,15 +127,16 @@ export const management = [
     text: "Indian Cricketer",
   },
   {
-    img: Ebhrahim.src,
+    img: EbrahimMhyn.src,
     header: "Ebhrahim Mhyn",
     text: "Social media star",
   },
   {
-    img: Sonu.src,
+    img: SonuSoodFoundation.src,
     header: "Sonu Sood",
     text: "Sood charity foundation",
   },
+
 ];
 
 export const ourElectionClient = [
@@ -247,10 +249,6 @@ export const navTitle = [
     link: "/",
   },
   {
-    name: "About",
-    link: "/aboutus",
-  },
-  {
     name: "Service",
     link: "/services",
   },
@@ -259,13 +257,19 @@ export const navTitle = [
     link: "/project",
   },
   {
-    name: "Blog",
-    link: "/blog",
-  },
-  {
     name: "Clients",
     link: "/clients",
   },
+  {
+    name: "Blog",
+    link: "/blog",
+  },
+
+  {
+    name: "About",
+    link: "/aboutus",
+  },
+  
   {
     name: "Contact",
     link: "/contact",
