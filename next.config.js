@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-const webpack = require('webpack');
-
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    unoptimized: true,
-    domains: [],
-     formats: ["image/avif", "image/webp"],
-  },
-
-  // Adding the standalone output configuration
-  output: "standalone",
-
-=======
 const webpack = require("webpack");
 
 /** @type {import('next').NextConfig} */
@@ -54,7 +38,6 @@ const nextConfig = {
     ];
   },
 
->>>>>>> e3da751 (Add latest code)
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -66,11 +49,7 @@ const nextConfig = {
         $: "jquery",
         jQuery: "jquery",
         "window.jQuery": "jquery",
-<<<<<<< HEAD
-      }),
-=======
       })
->>>>>>> e3da751 (Add latest code)
     );
 
     return config;
